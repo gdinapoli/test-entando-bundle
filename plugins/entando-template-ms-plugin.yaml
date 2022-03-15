@@ -1,5 +1,5 @@
-image: gdinapoli/ent-project-template:0.0.2-SNAPSHOT
-dbms: none
+image: gdinapoli/ent-project-template:0.0.3-SNAPSHOT
+dbms: "postgresql"
 ingressPath: "/entando-template-api"
 healthCheckPath: "/actuator/health"
 roles:
